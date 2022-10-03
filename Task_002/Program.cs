@@ -5,6 +5,7 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 if (number1 > number2)
 {
-    Console.WriteLine($"Это число больше => {number1}");
+    Console.Write($"max = {number1}");
 }
-else Console.WriteLine($"Это число больше => {number2}");
+else
+    Console.Write($"max = {number2}");
