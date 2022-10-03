@@ -7,6 +7,7 @@ Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int counter = 1;
 
+Console.WriteLine($"Числа от 1 до {number} ");
 
 while (counter <= number)
 {
